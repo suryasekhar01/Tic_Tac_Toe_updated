@@ -1,0 +1,122 @@
+ /* to remove browser default value */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* reflected on whole screen */
+html{
+    background-color: #ffff80;
+}
+
+header{
+    text-align: center;
+    margin: 50px;
+    padding: 0;
+}
+
+#head{
+    font-size: 50px;
+    font-family: cursive;
+    color: cornflowerblue;
+}
+
+#result{
+    font-size: 30px;
+    font-family: Verdana;
+    color: chocolate;
+    text-align: center;
+    margin-bottom: 30px; 
+    /* alreay 50 px up by header */
+}
+
+canvas{
+    /* width type color */
+    display: block;
+    float: left;
+    border: 3px solid dodgerblue;
+    background-color: lightyellow;
+    text-align: center;
+}
+
+#game{
+    /* to handle various widgth of devices */
+    position: relative;
+    width: 650px;
+    height: 320px;
+    margin: 0 auto ;
+
+    /* top already margined by result and left,right equally divide */
+}
+
+
+#tic{
+    position: relative;
+    margin: 0 auto;
+    border: 3px solid dodgerblue;
+    height: 318px;
+    width: 318px;
+    display: inline-block;
+    float: left;
+   
+}
+
+#rules{
+    position: relative;
+    height: 318px;
+    width: 318px;
+    text-align: center;
+    display: inline-block;
+    float: right;
+}
+
+/* handle rule styles */
+
+p{
+    font-size: 26px;
+    margin: 15px;
+    color: brown;
+}
+
+/* handle notes tag */
+
+h2{
+    font-size: 35px;
+    color: brown;
+}
+
+
+/* handle new game button */
+
+button{
+    margin-top: 15px;
+    margin-left: 60px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: limegreen;
+    color: gold;
+    font-family: cursive;
+    border: 1px solid black;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.7);
+
+}
+
+/* 
+element_type:hover
+
+#element_id:hover
+
+.elemnt_class:hover
+
+*/
+
+canvas:hover{
+    background-color: lightblue;
+}
+
+button:hover{
+    background-color: green;
+}
