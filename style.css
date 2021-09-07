@@ -32,7 +32,7 @@ header{
 
 canvas{
     /* width type color */
-    display: block;
+    display: inline-block;
     float: left;
     border: 3px solid dodgerblue;
     background-color: lightyellow;
